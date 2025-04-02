@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hasher</title>
+</head>
+
+<body>
+  <div class="hasher-container">
+    <h1 class="hasher-header">Hasher</h1>
+    <div class="drop-zone">
+      <p>Drop files here</p>
+      <p>or</p>
+      <p>Click to select</p>
+    </div>
+    <div class="algorithm-display">
+      Hash Algorithm: <span class="selected-algorithm">MD5</span>
+    </div>
+    <div class="algorithm-options">
+      <div class="algorithm-option selected" data-algorithm="MD5">MD5</div>
+      <div class="algorithm-option" data-algorithm="SHA1">SHA1</div>
+      <div class="algorithm-option" data-algorithm="SHA256">SHA256</div>
+      <div class="algorithm-option" data-algorithm="SHA512">SHA512</div>
+    </div>
+  </div>
+  <div class="hash-label">Calculated Hash:</div>
+  <div class="hash-result">XXXXXXXXXXXXXXXX</div>
+</body>
+
+</html>
